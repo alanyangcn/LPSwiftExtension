@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LPSwiftExtension
 
 [![CI Status](https://img.shields.io/travis/alanyangcn/LPSwiftExtension.svg?style=flat)](https://travis-ci.org/alanyangcn/LPSwiftExtension)
@@ -27,3 +28,6 @@ alanyangcn, 215410815@qq.com
 ## License
 
 LPSwiftExtension is available under the MIT license. See the LICENSE file for more info.
+=======
+# LPSwiftExtensionwer 
+>>>>>>> 58cb7e4798795c9b8029e411258a47da56ceafc8
