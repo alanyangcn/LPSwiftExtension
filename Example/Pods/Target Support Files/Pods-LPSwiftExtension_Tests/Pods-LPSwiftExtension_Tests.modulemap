@@ -1,0 +1,6 @@
+framework module Pods_LPSwiftExtension_Tests {
+  umbrella header "Pods-LPSwiftExtension_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

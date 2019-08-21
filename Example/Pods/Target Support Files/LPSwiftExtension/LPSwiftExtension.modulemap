@@ -1,0 +1,6 @@
+framework module LPSwiftExtension {
+  umbrella header "LPSwiftExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

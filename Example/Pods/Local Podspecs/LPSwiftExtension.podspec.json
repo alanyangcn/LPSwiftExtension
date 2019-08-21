@@ -1,0 +1,22 @@
+{
+  "name": "LPSwiftExtension",
+  "version": "0.1.0",
+  "summary": "A short description of LPSwiftExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alanyangcn/LPSwiftExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alanyangcn": "215410815@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/alanyangcn/LPSwiftExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LPSwiftExtension/Classes/**/*"
+}

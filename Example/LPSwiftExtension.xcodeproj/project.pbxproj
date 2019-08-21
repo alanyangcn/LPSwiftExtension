@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A36AD4349F752E43552AE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		04A36AD4349F752E43552AE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3C6D619E4BB4365B7D564B8A /* Pods-LPSwiftExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPSwiftExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-LPSwiftExtension_Example/Pods-LPSwiftExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		48537E149C141430145A30B8 /* LPSwiftExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LPSwiftExtension.podspec; path = ../LPSwiftExtension.podspec; sourceTree = "<group>"; };
+		48537E149C141430145A30B8 /* LPSwiftExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LPSwiftExtension.podspec; path = ../LPSwiftExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		59BA4F9E124ACCFA5A38D84F /* Pods_LPSwiftExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPSwiftExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LPSwiftExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPSwiftExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* LPSwiftExtension_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPSwiftExtension_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		90687963166F6C39A27E21C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		90687963166F6C39A27E21C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		942F5044B5242821D49C9078 /* Pods-LPSwiftExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPSwiftExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-LPSwiftExtension_Example/Pods-LPSwiftExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A622F9CE9B0B0E8705BBA90 /* Pods_LPSwiftExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPSwiftExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2DB683AFD3624B38A72D30 /* Pods-LPSwiftExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPSwiftExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LPSwiftExtension_Tests/Pods-LPSwiftExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				BF2DB683AFD3624B38A72D30 /* Pods-LPSwiftExtension_Tests.debug.xcconfig */,
 				C7A38C217EA8D95300338EF9 /* Pods-LPSwiftExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
