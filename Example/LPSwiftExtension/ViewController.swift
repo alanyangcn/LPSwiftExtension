@@ -7,12 +7,16 @@
 //
 
 import UIKit
-
+import LPSwiftExtension
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let label = UILabel(color: UIColor.red, font: UIFont.systemFont(ofSize: 17, weight: .medium))
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
