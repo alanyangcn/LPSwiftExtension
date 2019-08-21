@@ -1,8 +1,9 @@
 {
   "name": "LPSwiftExtension",
-  "version": "0.1.0",
-  "summary": "A short description of LPSwiftExtension.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "A Swift Extensions Tool",
+  "swift_versions": "5.1",
+  "description": "swift扩展swift扩展swift扩展swift扩展swift扩展swift扩展",
   "homepage": "https://github.com/alanyangcn/LPSwiftExtension",
   "license": {
     "type": "MIT",
@@ -13,10 +14,11 @@
   },
   "source": {
     "git": "https://github.com/alanyangcn/LPSwiftExtension.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
-  "source_files": "LPSwiftExtension/Classes/**/*"
+  "source_files": "LPSwiftExtension/Classes/**/*",
+  "swift_version": "5.1"
 }

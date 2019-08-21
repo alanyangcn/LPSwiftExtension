@@ -16,6 +16,18 @@ public extension UILabel {
         self.textColor = color
         self.font = font
     }
+    
+    convenience init(color: UIColor?, fontSize: CGFloat = 17) {
+        self.init()
+        self.textColor = color
+        self.font = UIFont.systemFont(ofSize: fontSize)
+    }
+    
+    convenience init(color: UIColor?, mediumfontSize: CGFloat = 17) {
+        self.init()
+        self.textColor = color
+        self.font = UIFont.systemFont(ofSize: mediumfontSize, weight: .medium)
+    }
 }
 
 #endif
